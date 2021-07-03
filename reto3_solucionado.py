@@ -20,7 +20,9 @@ def lista_letras(codigo):
             '.--.':'P','--.-':'Q','.-.':'R','...':'S',
             '-':'T', '..-':'U','...-':'V','.--':'W',
             '-..-':'X','-.--':'Y','--..':'Z','/':' ',' ':''}
+
     codigo_morse = codigo.strip().split(' ')
+
     mensajeg = []
     for i in codigo_morse:
         letra = diccionario.get(i)
